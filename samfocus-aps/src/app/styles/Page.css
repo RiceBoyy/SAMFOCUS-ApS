@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 16px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h-wrap svg {
+    margin-right: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    text-align: center;
+}
+
+.calendar {
+    margin-top: 16px;
+}
+
+.calendar h2 {
+    font-size: 20px;
+}
+
+.calendar div {
+    margin-top: 8px;
+}
